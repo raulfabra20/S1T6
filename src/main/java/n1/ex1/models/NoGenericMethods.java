@@ -1,36 +1,38 @@
 package n1.ex1.models;
 
 public class NoGenericMethods<T> {
-    private T animal;
-    private T plant;
-    private T object;
+    private int num1;
+    private int num2;
+    private int num3;
 
-    public NoGenericMethods(T animal, T plant, T object) {
-        this.animal = animal;
-        this.plant = plant;
-        this.object = object;
+    public NoGenericMethods(int num1, int num2, int num3) {
+        this.num1 = num1;
+        this.num2 = num2;
+        this.num3 = num3;
     }
-    public T getAnimal(){
-        return animal;
-    }
-    public void setAnimal(T animal){
-        this.animal = animal;
-    }
+    public int getNum1(){
 
-    public T getPlant() {
-        return plant;
+        return num1;
+    }
+    public void setNum1(int num1){
+        this.num1 = num1;
     }
 
-    public void setPlant(T plant) {
-        this.plant = plant;
+    public int getNum2() {
+        return num2;
     }
 
-    public T getObject() {
-        return object;
+    public void setNum2(int num2) {
+
+        this.num2 = num2;
     }
 
-    public void setObject(T object) {
-        this.object = object;
+    public int getNum3() {
+        return num3;
+    }
+
+    public void setNum3(int num3) {
+        this.num3 = num3;
     }
 }
 

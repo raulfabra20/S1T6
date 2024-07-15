@@ -5,10 +5,10 @@ import n1.ex1.models.NoGenericMethods;
 public class Application {
 
     public static void createObjects(){
-        NoGenericMethods<String> obj1 = new NoGenericMethods<>("Sunshower", "Fork", "Shark");
+        NoGenericMethods<Integer> obj1 = new NoGenericMethods<>(12, 15, 19);
 
-        NoGenericMethods<String> obj2 = new NoGenericMethods<>("Fork", "Shark", "Sunshower");
+        NoGenericMethods<String> obj2 = new NoGenericMethods<>(19, 12, 15);
 
-        NoGenericMethods<String> obj3 = new NoGenericMethods<>("Shark", "Sunshower", "Fork");
+        NoGenericMethods<String> obj3 = new NoGenericMethods<>(15, 19, 12);
     }
 }
